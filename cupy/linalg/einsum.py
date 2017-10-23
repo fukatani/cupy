@@ -152,6 +152,7 @@ def einsum(*operands):
             The calculation based on the Einstein summation convention.
 
     .. seealso:: :func:`numpy.einsum`
+
     """
 
     # TODO(fukatani): Support 'out', 'order', 'dtype', 'casting', 'optimize'
